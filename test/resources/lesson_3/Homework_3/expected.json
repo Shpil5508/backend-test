@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "id": 637876,
+      "title": "Chicken 65",
+      "image": "https://spoonacular.com/recipeImages/637876-312x231.jpg",
+      "imageType": "jpg",
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 112.663,
+            "unit": "kcal"
+          }
+        ]
+      }
+    },
+    {
+      "id": 716342,
+      "title": "Chicken Suya",
+      "image": "https://spoonacular.com/recipeImages/716342-312x231.jpg",
+      "imageType": "jpg",
+      "nutrition": {
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": 523.007,
+            "unit": "kcal"
+          }
+        ]
+      }
+    }
+  ],
+  "offset": 0,
+  "number": 2,
+  "totalResults": 582
+}
