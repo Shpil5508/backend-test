@@ -1,0 +1,50 @@
+Чек-лист:
+1. Category-controller
+1.1 Запрос GET URL https://minimarket1.herokuapp.com/market/api/v1/categories/{id}
+возвращается ответ с массивом
+"products":
+[
+    {
+ "id": Integet,
+"title": String,
+"price": Integet,
+"categoryTitle": String
+    },
+    {
+        ...
+    }
+]
+
+2. Product-controller
+2.1 Запрос GET https://minimarket1.herokuapp.com/market/api/v1/products
+возвращает массив с перечнем продуктов
+[
+    {
+ "id": Integet,
+"title": String,
+"price": Integet,
+"categoryTitle": String
+    },
+    {
+        ...
+    }
+]
+
+2.2 Запрос POST https://minimarket1.herokuapp.com/market/api/v1/products
+с body {
+         "title": "Limon",
+         "price": 95,
+         "categoryTitle": "Food"
+       }
+
+возвращает созданный данный продукт с его id типа Intager
+
+2.3 Запрос PUT https://minimarket1.herokuapp.com/market/api/v1/products
+вносит изменения в ранее созданный продукт
+
+2.4 Запрос GET https://minimarket1.herokuapp.com/market/api/v1/products/{id}
+возвращает продукт по его id
+
+2.5 Запрос DELETE https://minimarket1.herokuapp.com/market/api/v1/products/{id}
+удаляет продукт по его id.
+Продукта больше нет в перечне всех продуктов по п. 2.1
